@@ -12,3 +12,8 @@
   + command interpreter
   + text editor
   + assembler
+  + made with assembler for PDP7, but later rewritten in C with Dennis Ritchie
+    + made system portable and widespread
+
+- Operating System :: is a program that controls all other user programs and distributes
+  system resources
