@@ -72,4 +72,4 @@ to create environment variable
 #+begin_src bash
 echo "export NAME=VALUE" >> ~/.bashrc
 source ~/.bashrc
-#end
+#+end_src
