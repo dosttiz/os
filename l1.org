@@ -47,4 +47,29 @@
 OS interacts with user via shell - TUI.
 
 + ~whoami~ displays username
-+ ~~
++ ~hostname~ displays system name
++ ~uname~ collects system info, flag ~-a~ for full info
++ ~who~ shows info abt all registered users
++ ~echo~ displays string passed to it
+
++ ~/~ for entering search pattern
+  + ~n N~ for navigation
+
++ ~date timedatectl date +%s~
+
+* environment variables & aliases
+- environment variable :: text variable with some info
+  + shell variables :: only current instance
+  + environment variables :: all instances all the time
+
+~printenv~ show all envvars
+
+~$~ dereference symbol to gain access to the variable's text.
+
+all user created vars via ~NAME="TEXT"~ are *shell variables*
+
+to create environment variable
+#+begin_src bash
+echo "export NAME=VALUE" >> ~/.bashrc
+source ~/.bashrc
+#end
