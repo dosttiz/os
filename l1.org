@@ -1,0 +1,14 @@
+#+title: lab1
+
+* os timeline
++ mainframes
++ idea of operating system with shared time :: multiple operators
+  can work at the same time
++ 1960s /MULTICS/ - multiplexed information and computing service
+  + large size & other difficulties
++ 1969 Ken Thompson - UNICS
+  + hierarchical file system
+  + processes
+  + command interpreter
+  + text editor
+  + assembler
