@@ -81,3 +81,12 @@ in shell and then source bashrc file
 ~history~
 ~history -c~
 ~<C-R>~ search in bash history and place command - really useful
+
+* tasks
+1. task1
+   1. ~hostnamectl~
+   2. ~sudo pacman -S git~
+   3. ~echo -e "*\t*\t*\n*\t*\t*\n*\t*\t*"~
+2. task2
+   1. ~date --utc~
+   2. ~date +%s~
