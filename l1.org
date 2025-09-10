@@ -18,3 +18,29 @@
 
 - Operating System :: is a program that controls all other user programs and distributes
   system resources
+
+- 1983 Richard Stallman
+  + GNU
+  + GCC
+  + Nano
+  + GRUB
+  + lacks /Kernel/
+
+
+- Kernel :: part of the OS that allows apps coordinated access to
+  system resources
+
++ Linux
+  + Linus Torvalds
+  + MINIX - UNIX clone
+    + not open source
+    + less powerful than unix
+    + license fees
+  + Linux = Minix + Unix
+  + GNU GPL
+  + Linux is _kernel_, not OS => GNU/LINUX or GNU+LINUX
+
++ Linux distributions
+  Astra is Debian derivative
+
+* terminal basics
