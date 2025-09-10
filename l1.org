@@ -73,3 +73,11 @@ to create environment variable
 echo "export NAME=VALUE" >> ~/.bashrc
 source ~/.bashrc
 #+end_src
+
+or just open ~$HOME/.bashrc~ and add line export same as you do
+in shell and then source bashrc file
+
+~alias unalias~
+~history~
+~history -c~
+~<C-R>~ search in bash history and place command - really useful
