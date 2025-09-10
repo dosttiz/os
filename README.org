@@ -1,4 +1,2 @@
-#+title: operating systems labs
+#+title: os
 
-test
-test
