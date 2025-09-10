@@ -44,3 +44,7 @@
   Astra is Debian derivative
 
 * terminal basics
+OS interacts with user via shell - TUI.
+
++ ~whoami~ displays username
++ ~~
