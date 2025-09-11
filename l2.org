@@ -12,5 +12,11 @@
     memory
   + this is when /file/ got its modern meaning
   + filenames consisted of 2 parts:
-    1. main name :: modern file name
-    2. supplementary name :: modern file extension
+    - main name :: modern file name
+    - supplementary name :: modern file extension
+  + combine files into structures
+    - first it was a simple array, linked to memory device
+    - today most common is a tree structure with ability to mount
+      and insert additional nodes and subtrees(links)
+    - filename now is a path to the file in such structure -
+      enumeration of tree nodes which needed to be passed to access file
