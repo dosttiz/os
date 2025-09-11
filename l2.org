@@ -20,3 +20,19 @@
       and insert additional nodes and subtrees(links)
     - filename now is a path to the file in such structure -
       enumeration of tree nodes which needed to be passed to access file
+
+
+* file system definition
++ File :: is a named memory segment on data device which
+  given to the user as a whole
++ filename :: a string contains for file identification
++ filesystem :: part of the os that defines a way for organization,
+  storage and labeling on data devices in computer
+
+* file hierarchy
++ FHS
+  - ~/~ :: root directory
+  -  ~/bin~ :: common programs that can be used ny superusers and
+    default users, but needed when other filesystems are not
+    mounted
+  - ~/dev~ ::
