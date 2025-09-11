@@ -35,4 +35,20 @@
   -  ~/bin~ :: common programs that can be used ny superusers and
     default users, but needed when other filesystems are not
     mounted
-  - ~/dev~ ::
+  - ~/dev~ :: devices files
+  - ~/etc~ :: config files
+  - ~/home~ :: home directories for common users
+  - ~/lib~ :: libraries for programs from ~/bin~ and ~/sbin~ and
+    kernel modules
+  - ~/media~ :: mounting points for external memory devices
+  - ~/mnt~ :: mounting points for temporary mounting
+  - ~/opt~ :: additional software
+  - ~/proc~ :: pseudofilesystem, shows kernel state and launched processes
+  - ~/root~ :: home directory
+  - ~/run~ :: pseudofilesystem, shows data linked with launched processes
+  - ~/sbin~ :: system binaries only for superuser
+  - ~/srv~ :: data for system services
+  - ~/sys~ :: pseudofilesystem that shows devices and drivers
+  - ~/tmp~ :: temporary files
+  - ~/usr~ :: secondary hierarchy
+  - ~/var~ :: changeable files ~/var/tmp~ - temp files that saved after reload
