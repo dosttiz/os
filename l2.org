@@ -1,1 +1,16 @@
 #+title: lab2
+
+* history of filesystems
+- pubched cards
+  + you needed a lot of them
+  + reading was not that fast
+- IBM -- first prototype of hard disk
+  + disk files
+  + processors registers combined into single register file
+- introduction to file systems
+  + when there are multiple "virtual memory devices" in single
+    memory
+  + this is when /file/ got its modern meaning
+  + filenames consisted of 2 parts:
+    1. main name :: modern file name
+    2. supplementary name :: modern file extension
