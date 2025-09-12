@@ -52,3 +52,23 @@
   - ~/usr~ :: secondary hierarchy
   - ~/var~ :: changeable files ~/var/tmp~ - temp files that saved after reload
 
+* useful commands
+- dd :: data definition
+  + ~dd if=<source> of=<dest> -params~
+  + ~dd if=/dev/zero of=file.log bs=1M count=512~ ::
+    binary write zeros to file.log batch size = 1Meg amount
+    of batches - 512 -- total 512 megs of zeros
+- mkfs :: create filesystems on disks
+  + ~mkfs -t ext4 file.img~ :: make ext4 partition in file.img
+
+    remember: in linux everything is file
+- mount :: partition mount
+  + ~sudo mount <device file> <destination-directory>~
+  + ~sudo mount file.img ~/media/file/~
+- archiving
+  + ~tar -options <archive>.tar <files for archivation>~
+  + ~tar -c -f archive.tar file1 file2 file3 ..~ :: archive
+  + ~tar -tf archive.tar~ :: show contents without unarchiving
+  + ~tar -xvf archive.tar~ :: extract archive
+  + ~gzip archive.tar~ :: zip archiving
+  + ~gunzip archive.gz~ :: unarchiving
