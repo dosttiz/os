@@ -12,3 +12,12 @@
 | [chars]  | replaces single char from chars       |
 | [!chars] | replaces any char not from chars      |
 * regex
+** types of regex
++ POSIX basic regular expression
++ POSIX extended regular expression
+
+The main difference is how engine interpret
+special characters listed above and other
+
+there's great course on stepik abt regexes, check
+this out
