@@ -21,7 +21,6 @@
     - filename now is a path to the file in such structure -
       enumeration of tree nodes which needed to be passed to access file
 
-
 * file system definition
 + File :: is a named memory segment on data device which
   given to the user as a whole
@@ -32,9 +31,9 @@
 * file hierarchy
 + FHS
   - ~/~ :: root directory
-  -  ~/bin~ :: common programs that can be used ny superusers and
-    default users, but needed when other filesystems are not
-    mounted
+  - ~/bin~ :: common programs that can be used ny superusers and
+   default users, but needed when other filesystems are not
+   mounted
   - ~/dev~ :: devices files
   - ~/etc~ :: config files
   - ~/home~ :: home directories for common users
@@ -52,3 +51,4 @@
   - ~/tmp~ :: temporary files
   - ~/usr~ :: secondary hierarchy
   - ~/var~ :: changeable files ~/var/tmp~ - temp files that saved after reload
+
