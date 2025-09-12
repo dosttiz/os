@@ -3,3 +3,9 @@
 * main search utilities
 + ~find~ :: file & directory search
 + ~grep~ :: text search
+
+* data filtering
+| Metachar | description              |
+|----------+--------------------------|
+| *        | any amount of characters |
+|          |                          |
