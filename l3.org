@@ -21,3 +21,7 @@ special characters listed above and other
 
 there's great course on stepik abt regexes, check
 this out
+
+* grep utility
++ search globally for lines matching the regular expression
++ ~grep -flags <template> <file(s) name>~
