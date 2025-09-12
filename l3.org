@@ -25,3 +25,6 @@ this out
 * grep utility
 + search globally for lines matching the regular expression
 + ~grep -flags <template> <file(s) name>~
+
+* find utility
++ ~find <directory to search> <criteria> <action>~
