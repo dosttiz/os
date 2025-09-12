@@ -5,7 +5,10 @@
 + ~grep~ :: text search
 
 * data filtering
-| Metachar | description              |
-|----------+--------------------------|
-| *        | any amount of characters |
-|          |                          |
+| Metachar | description                           |
+|----------+---------------------------------------|
+| *        | any amount of characters              |
+| ?        | replaces single char (not whitespace) |
+| [chars]  | replaces single char from chars       |
+| [!chars] | replaces any char not from chars      |
+* regex
